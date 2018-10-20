@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./upcoming-card.component.css']
 })
 export class UpcomingCardComponent implements OnInit {
-    @Input() launch: Object;
+    @Input() upcoming: Object;
   constructor() { }
 
   ngOnInit() {
